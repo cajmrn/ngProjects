@@ -28,5 +28,7 @@ id: number;
   }
   onRecipeEdit() {
     this.router.navigate(['edit'], { relativeTo: this.route});
+    // this can also be formatted as follows
+    // this.router.navigate(['../', this.id, 'edit'], { relativeTo: this.route});
   }
 }

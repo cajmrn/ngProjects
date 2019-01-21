@@ -6,9 +6,9 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  loadedFeature: string = 'R';
+  loadedFeature = 'R';
 
-  onNavigate(e: string){
+  onNavigate(e: string) {
     this.loadedFeature = e;
   }
 }
